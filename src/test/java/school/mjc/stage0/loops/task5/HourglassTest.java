@@ -8,9 +8,9 @@ class HourglassTest extends BaseIOTest {
     @Test
     void printHourglassOfGivenSizePrintsHourglass() {
         String expected = "88888\n" +
-                " 888 \n" +
-                "  8  \n" +
-                " 888 \n" +
+                " 888\n" +
+                "  8\n" +
+                " 888\n" +
                 "88888\n";
 
         Hourglass hourglass = new Hourglass();
@@ -23,10 +23,10 @@ class HourglassTest extends BaseIOTest {
     @Test
     void printHourglassOfGivenSizePrintsHourglassEven() {
         String expected = "888888\n" +
-                " 8888 \n" +
-                "  88  \n" +
-                "  88  \n" +
-                " 8888 \n" +
+                " 8888\n" +
+                "  88\n" +
+                "  88\n" +
+                " 8888\n" +
                 "888888\n";
 
 
@@ -40,7 +40,7 @@ class HourglassTest extends BaseIOTest {
     @Test
     void printHourglassOfGivenSizePrintsSmallestHourglass() {
         String expected =  "888\n" +
-                " 8 \n" +
+                " 8\n" +
                 "888\n";
 
 
